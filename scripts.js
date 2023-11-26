@@ -1,6 +1,6 @@
 let display = document.getElementById('tela');/* Aqui é declarado a tela da Calculadora */
 
-function DigitoTela(value) {/* Função que atribui o valor do botão para a tela*/
+function DigitoTela(value) {/* Função que atribui o valor do botão para a tela e o += adiciona o valor junto ao valor já iniciado*/
     display.value += value;
 }
 
