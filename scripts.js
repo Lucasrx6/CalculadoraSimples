@@ -1,17 +1,17 @@
-let display = document.getElementById('tela');/* Aqui é declarado a tela da Calculadora */
+let tela = document.getElementById('tela');/* Aqui é declarado a tela da Calculadora */
 
-function DigitoTela(value) {/* Função que atribui o valor do botão para a tela e o += adiciona o valor junto ao valor já iniciado*/
-    display.value += value;
+function DigitoTela(value) {/* Função que atribui o valor do botão para a tela*/
+    tela.value += value;
 }
 
 function limparTela() { /* Botão que seta um valor em branco para a tela - limpa a tela */
-    display.value = '';
+    tela.value = '';
 }
 
 function calculaResultado() { /* Função para realizar o calculo */
     try {
-        display.value = eval(display.value);
+        tela.value = eval(tela.value);
     } catch (error) {
-        display.value = 'Erro';
+        tela.value = 'Erro';
     }
 }
