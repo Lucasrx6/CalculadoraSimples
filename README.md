@@ -1,9 +1,8 @@
 # CalculadoraSimples
 
-# InitFullCalendar
 
 ## Objetivo
-Estudando meus primeiros passos com NPM.
+Estudando meus primeiros passos com HTML, CSS e JS.
 
 ## Acesso ao Site
 **
