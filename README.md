@@ -5,7 +5,7 @@
 Estudando meus primeiros passos com HTML, CSS e JS.
 
 ## Acesso ao Site
-[**](https://lucasrx6.github.io/CalculadoraSimples/)
+https://lucasrx6.github.io/CalculadoraSimples/
 
 ## Funcionalidades
 - `Realiza todas a operações básicas`: Adiciona um evento ao calendario.
